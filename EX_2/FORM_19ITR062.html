@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PARTICIPANTS FORM</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body bgcolor="#ced9d8" class="diagonal-gradient">
+
+    <br/>
+    <h1 align="center"><u>Participant Details Form</u></h1>
+    <br/>
+    <br/>
+    <hr/>
+
+    <br/>
+    <br/>
+    <form method="GET">
+        <table align=center cellspacing="1" cellpadding="15">
+            <tr>
+                <td><strong>Name:</strong></td>
+                <td><input type="text" name="name" required pattern="[A-Z a-z]{3,}" /></td>
+            </tr>
+            <tr>
+                <td><strong>Date of Birth:</strong></td>
+                <td><input type="date" name="DOB" min="1999-01-01" max="2005-12-31" required /></td>
+            </tr>
+            <tr>
+                <td><strong>Gender:</strong></td>
+                <td>
+                    <input type="radio" name="gender" value="M" required />Male
+                    <input type="radio" name="gender" value="F" />Female
+                    <input type="radio" name="gender" value="other" />Others
+                </td>
+            </tr>
+            <tr>
+                <td><strong>E-Mail:</strong></td>
+                <td><input type="email" required class="mail" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Mobile:</strong></td>
+                <td><input type="text" pattern="[0-9]{10}" required /></td>
+            </tr>
+            <tr>
+                <td><strong>Address:</strong></td>
+                <td><textarea rows="4" cols="22"></textarea></td>
+            </tr>
+            <tr>
+                <td><strong>State:</strong></td>
+                <td>
+                    <select>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="AD">Andhra Pradesh</option>
+                        <option value="AR">Arunachal Pradesh</option>
+                        <option value="AS">Assam</option>
+                        <option value="DL">Delhi</option>
+                        <option value="KL">Kerala</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="TS">Telungana</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Pincode:</strong></td>
+                <td><input type="text" pattern="[0-9]{6}" name="PIN" /></td>
+            </tr>
+            <tr>
+                <td><strong>Events Interested:</strong></td>
+                <td>
+                    <fieldset>
+                        <legend>Solo</legend>
+                        <input type="checkbox" name="Singing" />Solo Singing
+                        <input type="checkbox" name="Singing" />Solo Dance
+                    </fieldset>
+                    <fieldset>
+                        <legend>Group</legend>
+                        <input type="checkbox" name="Dance" />Group Dance
+                        <input type="checkbox" name="mime" />MIME
+                    </fieldset>
+                    <fieldset>
+                        <legend>Gaming</legend>
+                        <input type="checkbox" name="Gaming" />Valorant
+                        <input type="checkbox" name="chess" /> Chess
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="font-size:16px">Do you want Accomodation?</p>
+                    <p style="font-size:14px">(Charges may be applied)</p>
+                </td>
+                <td>
+                    <input type="radio" name="Accomodation" value="Yes" required/>Yes
+                    <input type="radio" name="Accomodation" value="No" />No
+                </td>
+            </tr>
+        </table>
+        <p align="center">
+            <input type="submit" id="sub" />
+        </p>
+    </form>
+    <br/>
+    <br/>
+    <hr/>
+    <br/>
+    <footer align="center">
+        <h3><strong>Created by:</strong></h3>
+        <pre>
+  Pranauv S 19ITR062
+  B.Tech. IT - 3<sup>rd</sup> year
+  KONGU ENGINEERING COLLEGE.
+        </pre>
+    </footer>
+</body>
+
+</html>
