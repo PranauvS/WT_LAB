@@ -1,6 +1,11 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
     background-image: url(mountains.svg);
     background-size: cover;
+    background-position: right;
 }
 
 table {
@@ -12,6 +17,10 @@ form {
     font-style: italic;
 }
 
+table:hover {
+    background-color: rgb(250, 233, 238);
+}
+
 #sub {
     background-color: #ffffff;
     padding: 10px 25px;
@@ -20,9 +29,14 @@ form {
     margin: 4px 2px;
 }
 
+#sub:hover {
+    background-color: rgb(250, 233, 238);
+}
+
 .mail {
     width: 200px;
 }
+
 h3,
 pre {
     color: #ffffff;
