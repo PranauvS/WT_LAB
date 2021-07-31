@@ -1,3 +1,8 @@
+body {
+    background-image: url(mountains.svg);
+    background-size: cover;
+}
+
 table {
     background-color: #f2f2f2;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
