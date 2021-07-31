@@ -23,3 +23,7 @@ form {
 .mail {
     width: 200px;
 }
+h3,
+pre {
+    color: #ffffff;
+}
