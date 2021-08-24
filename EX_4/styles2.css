@@ -1,0 +1,47 @@
+@import url(styles.css);
+.body {
+    text-align: center;
+}
+
+.input-group {
+    top: 100px;
+}
+
+.body {
+    padding-left: 13cm;
+    padding-bottom: 3cm;
+    background-color: rgb(243, 243, 243);
+}
+
+.input-group input {
+    border-radius: 0%;
+    border-color: black;
+}
+
+.input-group button {
+    height: 1.3cm;
+    border-radius: 0%;
+    color: white;
+    border-color: black;
+    background-color: black;
+}
+
+.popular {
+    margin: 15%;
+    margin-left: 0%;
+    margin-right: 45%;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0px 2px 10px grey;
+}
+
+.popular ul {
+    font-size: large;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-left: 2cm;
+}
+
+.popular p {
+    font-size: 1cm;
+}

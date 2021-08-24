@@ -1,0 +1,130 @@
+#nav li {
+    padding: 5px;
+    list-style-type: none;
+    float: left;
+}
+
+#nav li a {
+    color: black;
+}
+
+.navbar-brand img {
+    width: 41%;
+}
+
+#nav li a img {
+    width: 20px;
+    height: auto;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+
+/* Carousel dark indicators */
+
+
+/* Add an extra .carousel parent class to increase specifity
+   avoiding the use of !important flag. */
+
+.carousel-inner {
+    margin: 0%;
+}
+
+.carousel .carousel-indicators li {
+    background-color: #fff;
+    background-color: rgba(70, 70, 70, .25);
+}
+
+.carousel .carousel-indicators .active {
+    background-color: #444;
+}
+
+
+/* Only for beautify example */
+
+h1 {
+    margin: 60px auto;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: 800px;
+}
+
+.carousel-indicators {
+    top: 500px;
+}
+
+.carousel-caption h1 {
+    font-size: 50px;
+}
+
+.carousel-caption {
+    top: 300px;
+}
+
+.box {
+    padding: 30px;
+    margin: 15%;
+    margin-left: 31%;
+    margin-right: 30%;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0px 2px 10px grey;
+}
+
+.box img {
+    width: 25px;
+    height: auto;
+}
+
+.contentsss {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.contentsss h3 {
+    font-size: 40px;
+}
+
+.contentsss #p1 {
+    color: dimgray;
+    font-style: italic;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.contentsss #p2 {
+    font-size: 20px;
+}
+
+.footer {
+    overflow: hidden;
+    margin-bottom: 0%;
+    width: 100%;
+}
+
+.content {
+    padding-top: 1cm;
+    padding-left: 5cm;
+    padding-right: 5cm;
+}
+
+.content img {
+    width: 1.2cm;
+    height: auto;
+}
+
+.content p a {
+    color: white;
+    padding-left: 100px;
+}
+
+#bottom_line {
+    padding: 10px;
+    padding-bottom: 20px;
+}
